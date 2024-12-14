@@ -36,7 +36,7 @@ module.exports.handleEvent = async function ({ api, event }) {
   const time = moment.tz("Asia/Kolkata").format("HH:mm:ss L");
   const request = require("request");
 
-  const femaleIDs = ["100085303477541", "", "100001212940148"];
+  const femaleIDs = ["100085303477541", "61563789937237", "100001212940148"];
 
   const maleReplies = [
     "तेरे jokes सुनकर ऐसा लगता है जैसे comedy का software update तेरे लिए available नहीं है! 🖥️😂👈",
